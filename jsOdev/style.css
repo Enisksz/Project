@@ -1,0 +1,41 @@
+
+body{
+    background-color: #424242;
+    color: #fff;
+}
+#clock{
+    text-align: center;
+    width: 50%;
+    position: absolute;
+    top: 30%;
+    left: 25%;
+}
+#clock h2{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 50px;
+}
+.clock-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: normal;
+}
+.clock-items{
+    width: 20%;
+    background-color: #fff;
+    color: black;
+    border-radius: 10px;
+    margin-right: 3%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: "Orbitron",sans-serif;
+    font-size: 60px;
+}
+#date{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+}
+#start-title{
+    color: orangered;
+    font-size: 40px;
+}
